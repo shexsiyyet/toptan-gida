@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build outputs
+.next/
+dist/
+build/
+*.pyc
+__pycache__/
+*.pyo
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Supabase
+.supabase/
+
+# Test coverage
+coverage/
+htmlcov/
+.coverage
+.pytest_cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Browser profiles
+.agency/
+
+# Cache & local directories
+.claude-mem/
+.claude/
+.config/
+.local/
+.cache/
+.npm/
+.bun/
+.fcc/
+.gateguard/
+
+# Large binaries
+*.bin
+*.exe
+*.dll
+*.so
+
+# Chroma/Playwright cache
+.cache/chroma/
+.cache/ms-playwright/
+
+# Bun binaries
+.bun/bin/
+
+# Python packages
+.local/lib/python*/
+
+# Claude local
+.local/share/claude/
+.local/bin/claude*
